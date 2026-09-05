@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>青芽BUD 3D 形象预览</title>
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  <style>
+    body { margin: 0; overflow: hidden; background: #f0f0f0; }
+    model-viewer { width: 100vw; height: 100vh; }
+    .info {
+      position: absolute;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: rgba(255,255,255,0.8);
+      padding: 8px 16px;
+      border-radius: 20px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      font-size: 14px;
+      color: #4a7c59;
+      pointer-events: none;
+    }
+  </style>
+</head>
+<body>
+  <model-viewer src="qingya_3d_20260905.glb"
+    camera-controls auto-rotate shadow-intensity="1"
+    exposure="1" environment-image="neutral"
+    alt="青芽BUD 3D 形象">
+  </model-viewer>
+  <div class="info">青芽BUD · 3D疗愈灵植小兽 · 拖动旋转 / 滚轮缩放</div>
+</body>
+</html>

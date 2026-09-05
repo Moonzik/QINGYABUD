@@ -1,0 +1,124 @@
+::ffff:127.0.0.1 - - [05/Sep/2026 18:17:40] "GET / HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [05/Sep/2026 18:17:48] "GET /v4/qingya_3d_v4.glb HTTP/1.1" 200 -
+----------------------------------------
+Exception occurred during processing of request from ('::ffff:127.0.0.1', 53265, 0, 0)
+Traceback (most recent call last):
+  File "C:\Users\XIAOMI\.workbuddy\binaries\python\versions\3.13.12\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\XIAOMI\.workbuddy\binaries\python\versions\3.13.12\Lib\http\server.py", line 1342, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                             directory=args.directory)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\XIAOMI\.workbuddy\binaries\python\versions\3.13.12\Lib\http\server.py", line 683, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\XIAOMI\.workbuddy\binaries\python\versions\3.13.12\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "C:\Users\XIAOMI\.workbuddy\binaries\python\versions\3.13.12\Lib\http\server.py", line 447, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\XIAOMI\.workbuddy\binaries\python\versions\3.13.12\Lib\http\server.py", line 435, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "C:\Users\XIAOMI\.workbuddy\binaries\python\versions\3.13.12\Lib\http\server.py", line 690, in do_GET
+    self.copyfile(f, self.wfile)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\XIAOMI\.workbuddy\binaries\python\versions\3.13.12\Lib\http\server.py", line 892, in copyfile
+    shutil.copyfileobj(source, outputfile)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\XIAOMI\.workbuddy\binaries\python\versions\3.13.12\Lib\shutil.py", line 204, in copyfileobj
+    fdst_write(buf)
+    ~~~~~~~~~~^^^^^
+  File "C:\Users\XIAOMI\.workbuddy\binaries\python\versions\3.13.12\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+    ~~~~~~~~~~~~~~~~~~^^^
+ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+----------------------------------------
+::ffff:127.0.0.1 - - [05/Sep/2026 18:17:49] "GET /v4/qingya_3d_v4_preview.glb HTTP/1.1" 200 -
+----------------------------------------
+Exception occurred during processing of request from ('::ffff:127.0.0.1', 53267, 0, 0)
+Traceback (most recent call last):
+  File "C:\Users\XIAOMI\.workbuddy\binaries\python\versions\3.13.12\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\XIAOMI\.workbuddy\binaries\python\versions\3.13.12\Lib\http\server.py", line 1342, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                             directory=args.directory)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\XIAOMI\.workbuddy\binaries\python\versions\3.13.12\Lib\http\server.py", line 683, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\XIAOMI\.workbuddy\binaries\python\versions\3.13.12\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "C:\Users\XIAOMI\.workbuddy\binaries\python\versions\3.13.12\Lib\http\server.py", line 447, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\XIAOMI\.workbuddy\binaries\python\versions\3.13.12\Lib\http\server.py", line 435, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "C:\Users\XIAOMI\.workbuddy\binaries\python\versions\3.13.12\Lib\http\server.py", line 690, in do_GET
+    self.copyfile(f, self.wfile)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\XIAOMI\.workbuddy\binaries\python\versions\3.13.12\Lib\http\server.py", line 892, in copyfile
+    shutil.copyfileobj(source, outputfile)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\XIAOMI\.workbuddy\binaries\python\versions\3.13.12\Lib\shutil.py", line 204, in copyfileobj
+    fdst_write(buf)
+    ~~~~~~~~~~^^^^^
+  File "C:\Users\XIAOMI\.workbuddy\binaries\python\versions\3.13.12\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+    ~~~~~~~~~~~~~~~~~~^^^
+ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+----------------------------------------
+::ffff:127.0.0.1 - - [05/Sep/2026 18:17:49] "GET /v4/qingya_3d_v4_lite.glb HTTP/1.1" 200 -
+----------------------------------------
+Exception occurred during processing of request from ('::ffff:127.0.0.1', 53269, 0, 0)
+Traceback (most recent call last):
+  File "C:\Users\XIAOMI\.workbuddy\binaries\python\versions\3.13.12\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\XIAOMI\.workbuddy\binaries\python\versions\3.13.12\Lib\http\server.py", line 1342, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                             directory=args.directory)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\XIAOMI\.workbuddy\binaries\python\versions\3.13.12\Lib\http\server.py", line 683, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\XIAOMI\.workbuddy\binaries\python\versions\3.13.12\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "C:\Users\XIAOMI\.workbuddy\binaries\python\versions\3.13.12\Lib\http\server.py", line 447, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\XIAOMI\.workbuddy\binaries\python\versions\3.13.12\Lib\http\server.py", line 435, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "C:\Users\XIAOMI\.workbuddy\binaries\python\versions\3.13.12\Lib\http\server.py", line 690, in do_GET
+    self.copyfile(f, self.wfile)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\XIAOMI\.workbuddy\binaries\python\versions\3.13.12\Lib\http\server.py", line 892, in copyfile
+    shutil.copyfileobj(source, outputfile)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\XIAOMI\.workbuddy\binaries\python\versions\3.13.12\Lib\shutil.py", line 204, in copyfileobj
+    fdst_write(buf)
+    ~~~~~~~~~~^^^^^
+  File "C:\Users\XIAOMI\.workbuddy\binaries\python\versions\3.13.12\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+    ~~~~~~~~~~~~~~~~~~^^^
+ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+----------------------------------------
+::ffff:127.0.0.1 - - [05/Sep/2026 18:20:09] "GET /v4/qingya_3d_v4_web.glb HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [05/Sep/2026 18:21:21] "HEAD /v4/qingya_3d_v4_viewer.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [05/Sep/2026 18:21:22] "GET /v4/qingya_3d_v4_viewer.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [05/Sep/2026 18:21:23] "GET /v4/qingya_3d_v4_web.glb HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [05/Sep/2026 18:23:06] "HEAD /v4/qingya_3d_v4_viewer.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [05/Sep/2026 18:23:06] "GET /v4/qingya_3d_v4_viewer.html HTTP/1.1" 304 -
+::ffff:127.0.0.1 - - [05/Sep/2026 18:23:07] "GET /v4/qingya_3d_v4_web.glb HTTP/1.1" 304 -
+::ffff:127.0.0.1 - - [05/Sep/2026 19:27:08] "GET /v4/qingya_3d_v4_viewer.html HTTP/1.1" 304 -
+::ffff:127.0.0.1 - - [05/Sep/2026 19:27:08] "GET /v4/qingya_3d_v4_web.glb HTTP/1.1" 304 -

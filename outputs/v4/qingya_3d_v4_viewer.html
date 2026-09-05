@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>青芽BUD 3D形象 · V4 多视角精修版</title>
+<style>
+  :root {
+    --bg-1: #f5fbfa;
+    --bg-2: #e6f4ee;
+    --ink: #1f3a33;
+    --muted: #6b8a83;
+    --accent: #6fc2a0;
+    --accent-2: #b6e0c6;
+    --warn: #c66b3b;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; height: 100%; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; color: var(--ink); background: linear-gradient(180deg, var(--bg-1), var(--bg-2)); overflow: hidden; }
+  #app { display: flex; flex-direction: column; height: 100vh; }
+  header {
+    padding: 14px 24px;
+    background: rgba(255,255,255,0.6);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(111, 194, 160, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+  }
+  header h1 { margin: 0; font-size: 18px; font-weight: 600; letter-spacing: 1px; }
+  header .meta { font-size: 12px; color: var(--muted); }
+  .stage { flex: 1; position: relative; overflow: hidden; }
+  #canvas { width: 100%; height: 100%; display: block; cursor: grab; }
+  #canvas:active { cursor: grabbing; }
+  #loader {
+    position: absolute; inset: 0;
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    background: linear-gradient(180deg, var(--bg-1), var(--bg-2));
+    z-index: 5;
+    transition: opacity 0.5s ease;
+  }
+  #loader.hidden { opacity: 0; pointer-events: none; }
+  #loader .title { font-size: 20px; font-weight: 500; margin-bottom: 18px; color: var(--ink); }
+  #loader .sub { font-size: 13px; color: var(--muted); margin-bottom: 28px; }
+  .progress-wrap { width: 320px; height: 6px; background: rgba(111, 194, 160, 0.2); border-radius: 999px; overflow: hidden; }
+  .progress-bar { height: 100%; background: linear-gradient(90deg, var(--accent), var(--accent-2)); width: 0%; transition: width 0.2s ease; }
+  .progress-text { margin-top: 12px; font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; }
+  .controls {
+    position: absolute; left: 24px; bottom: 24px;
+    background: rgba(255,255,255,0.85); backdrop-filter: blur(10px);
+    border-radius: 16px; padding: 14px 16px;
+    border: 1px solid rgba(111, 194, 160, 0.25);
+    box-shadow: 0 4px 20px rgba(31, 58, 51, 0.06);
+    z-index: 4;
+  }
+  .controls .row { display: flex; gap: 8px; align-items: center; margin-bottom: 8px; }
+  .controls .row:last-child { margin-bottom: 0; }
+  .controls label { font-size: 12px; color: var(--muted); min-width: 56px; }
+  .controls input[type=range] { flex: 1; accent-color: var(--accent); }
+  .controls button, .controls .btn {
+    border: 1px solid rgba(111, 194, 160, 0.3);
+    background: white;
+    color: var(--ink);
+    font-size: 12px; padding: 6px 12px;
+    border-radius: 999px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  .controls button:hover, .controls .btn:hover { background: var(--accent); color: white; }
+  .controls button.active { background: var(--accent); color: white; }
+  .preset { display: flex; gap: 6px; flex-wrap: wrap; }
+  .info {
+    position: absolute; right: 24px; top: 24px;
+    background: rgba(255,255,255,0.85); backdrop-filter: blur(10px);
+    border-radius: 14px; padding: 12px 16px;
+    font-size: 12px; line-height: 1.6;
+    color: var(--muted);
+    border: 1px solid rgba(111, 194, 160, 0.25);
+    max-width: 220px;
+    z-index: 4;
+  }
+  .info strong { color: var(--ink); }
+</style>
+</head>
+<body>
+<div id="app">
+  <header>
+    <div>
+      <h1>🌱 青芽BUD · 3D形象 V4 多视角精修版</h1>
+      <div class="meta">正面 + 侧面 + 背面三视图约束生成 · 268KB 轻量预览版</div>
+    </div>
+    <div class="meta" id="meta-stats">模型载入中...</div>
+  </header>
+  <div class="stage">
+    <canvas id="canvas"></canvas>
+    <div id="loader">
+      <div class="title">青芽正在醒来 🌱</div>
+      <div class="sub">从云端下载 268KB 精修模型</div>
+      <div class="progress-wrap"><div class="progress-bar" id="bar"></div></div>
+      <div class="progress-text" id="bar-text">0%</div>
+    </div>
+    <div class="info">
+      <div><strong>青芽BUD</strong></div>
+      <div>正面 · 侧面 · 背面 三视图约束</div>
+      <div>40K面 · WebP贴图 · Draco压缩</div>
+      <div style="margin-top:6px; color: var(--accent);">✨ 侧脸轮廓优化版</div>
+    </div>
+    <div class="controls">
+      <div class="row">
+        <label>自动旋转</label>
+        <button id="btn-rotate" class="active">开</button>
+      </div>
+      <div class="row">
+        <label>视角</label>
+        <div class="preset">
+          <button data-view="front">正面</button>
+          <button data-view="side">侧面</button>
+          <button data-view="back">背面</button>
+          <button data-view="top">俯视</button>
+          <button data-view="45">3/4</button>
+        </div>
+      </div>
+      <div class="row">
+        <label>大小</label>
+        <input type="range" id="size" min="0.5" max="2" step="0.05" value="1">
+      </div>
+      <div class="row">
+        <label>环境</label>
+        <button id="btn-env">柔光</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+    "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+  }
+}
+</script>
+<script type="module">
+import * as THREE from 'three';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+import { DRACOLoader } from 'three/addons/loaders/DRACOLoader.js';
+import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
+
+const canvas = document.getElementById('canvas');
+const loaderEl = document.getElementById('loader');
+const barEl = document.getElementById('bar');
+const barTextEl = document.getElementById('bar-text');
+const metaStatsEl = document.getElementById('meta-stats');
+
+const scene = new THREE.Scene();
+scene.background = null;
+
+const camera = new THREE.PerspectiveCamera(35, 1, 0.1, 100);
+camera.position.set(2.6, 1.4, 3.0);
+
+const renderer = new THREE.WebGLRenderer({ canvas, antialias: true, alpha: true });
+renderer.outputColorSpace = THREE.SRGBColorSpace;
+renderer.toneMapping = THREE.ACESFilmicToneMapping;
+renderer.toneMappingExposure = 1.1;
+renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+
+function resize() {
+  const r = canvas.parentElement.getBoundingClientRect();
+  renderer.setSize(r.width, r.height, false);
+  camera.aspect = r.width / r.height;
+  camera.updateProjectionMatrix();
+}
+window.addEventListener('resize', resize);
+resize();
+
+const controls = new OrbitControls(camera, canvas);
+controls.enableDamping = true;
+controls.dampingFactor = 0.08;
+controls.target.set(0, 0.6, 0);
+controls.minDistance = 1.6;
+controls.maxDistance = 6.0;
+
+const pmrem = new THREE.PMREMGenerator(renderer);
+scene.environment = pmrem.fromScene(new RoomEnvironment(), 0.04).texture;
+
+// Lights
+const hemi = new THREE.HemisphereLight(0xfff6e0, 0xb6e0c6, 0.6);
+scene.add(hemi);
+const key = new THREE.DirectionalLight(0xffffff, 1.2);
+key.position.set(3, 4, 2);
+scene.add(key);
+const fill = new THREE.DirectionalLight(0xb6e0c6, 0.6);
+fill.position.set(-2, 1, -1);
+scene.add(fill);
+const rim = new THREE.DirectionalLight(0xffe2c0, 0.5);
+rim.position.set(0, 3, -4);
+scene.add(rim);
+
+// Ground (subtle disc to give context)
+const groundGeo = new THREE.CircleGeometry(2.5, 64);
+const groundMat = new THREE.MeshStandardMaterial({
+  color: 0xeaf5ee,
+  roughness: 0.95,
+  metalness: 0,
+  transparent: true,
+  opacity: 0.6,
+});
+const ground = new THREE.Mesh(groundGeo, groundMat);
+ground.rotation.x = -Math.PI / 2;
+ground.position.y = -0.05;
+scene.add(ground);
+
+// GLB loader with Draco support
+const dracoLoader = new DRACOLoader();
+dracoLoader.setDecoderPath('https://unpkg.com/three@0.160.0/examples/jsm/libs/draco/');
+dracoLoader.setDecoderConfig({ type: 'js' });
+
+const gltfLoader = new GLTFLoader();
+gltfLoader.setDRACOLoader(dracoLoader);
+
+const url = './qingya_3d_v4_web.glb';
+
+gltfLoader.load(
+  url,
+  (gltf) => {
+    const model = gltf.scene;
+    model.traverse(o => {
+      if (o.isMesh) {
+        o.castShadow = true;
+        o.receiveShadow = true;
+        if (o.material) {
+          o.material.side = THREE.FrontSide;
+        }
+      }
+    });
+    // Center & scale
+    const box = new THREE.Box3().setFromObject(model);
+    const size = box.getSize(new THREE.Vector3());
+    const center = box.getCenter(new THREE.Vector3());
+    const maxDim = Math.max(size.x, size.y, size.z);
+    const target = 1.8;
+    const scale = target / maxDim;
+    model.scale.setScalar(scale);
+    model.position.sub(center.multiplyScalar(scale));
+    model.position.y += size.y * scale / 2;
+
+    scene.add(model);
+    controls.target.set(0, size.y * scale / 2, 0);
+
+    // Stats
+    let faceCount = 0, meshCount = 0;
+    model.traverse(o => { if (o.isMesh) { faceCount += o.geometry.index ? o.geometry.index.count / 3 : o.geometry.attributes.position.count / 3; meshCount++; } });
+    metaStatsEl.innerHTML = `${(faceCount/1000).toFixed(1)}K面 · ${meshCount}网格 · ${(scale).toFixed(2)}x`;
+
+    // Hide loader
+    loaderEl.classList.add('hidden');
+    setTimeout(() => loaderEl.remove(), 600);
+  },
+  (xhr) => {
+    const pct = xhr.total ? Math.round((xhr.loaded / xhr.total) * 100) : 0;
+    barEl.style.width = pct + '%';
+    barTextEl.textContent = pct + '%';
+  },
+  (err) => {
+    console.error(err);
+    barTextEl.textContent = '加载失败 · 请刷新重试';
+    barEl.style.background = 'var(--warn)';
+  }
+);
+
+// Animation
+let autoRotate = true;
+function tick() {
+  controls.autoRotate = autoRotate;
+  controls.autoRotateSpeed = 1.2;
+  controls.update();
+  renderer.render(scene, camera);
+  requestAnimationFrame(tick);
+}
+tick();
+
+// UI
+document.getElementById('btn-rotate').addEventListener('click', (e) => {
+  autoRotate = !autoRotate;
+  e.target.textContent = autoRotate ? '开' : '关';
+  e.target.classList.toggle('active', autoRotate);
+});
+
+const presets = {
+  front: { pos: [0, 1.0, 3.2] },
+  side: { pos: [3.2, 1.0, 0.5] },
+  back: { pos: [0, 1.0, -3.2] },
+  top: { pos: [0, 3.2, 0.1] },
+  '45': { pos: [2.4, 1.4, 2.4] },
+};
+document.querySelectorAll('[data-view]').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('[data-view]').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    const p = presets[btn.dataset.view];
+    if (p) {
+      autoRotate = false;
+      document.getElementById('btn-rotate').textContent = '关';
+      document.getElementById('btn-rotate').classList.remove('active');
+      animateCamera(p.pos);
+    }
+  });
+});
+
+function animateCamera(targetPos) {
+  const start = camera.position.clone();
+  const end = new THREE.Vector3(...targetPos);
+  const duration = 800;
+  const t0 = performance.now();
+  function step() {
+    const t = Math.min(1, (performance.now() - t0) / duration);
+    const e = t < 0.5 ? 2 * t * t : 1 - Math.pow(-2 * t + 2, 2) / 2;
+    camera.position.lerpVectors(start, end, e);
+    if (t < 1) requestAnimationFrame(step);
+  }
+  step();
+}
+
+let envType = 0;
+document.getElementById('btn-env').addEventListener('click', (e) => {
+  envType = (envType + 1) % 3;
+  if (envType === 0) { scene.environment = pmrem.fromScene(new RoomEnvironment(), 0.04).texture; renderer.toneMappingExposure = 1.1; e.target.textContent = '柔光'; }
+  else if (envType === 1) { scene.environment = pmrem.fromScene(new RoomEnvironment(), 0.0).texture; renderer.toneMappingExposure = 1.5; e.target.textContent = '明亮'; }
+  else { scene.environment = null; renderer.toneMappingExposure = 0.95; e.target.textContent = '无环境'; }
+});
+
+document.getElementById('size').addEventListener('input', (e) => {
+  const s = parseFloat(e.target.value);
+  // Find the model and adjust Y position
+  scene.traverse(o => { if (o.isMesh && o.geometry && o.geometry.attributes.position.count > 1000) { o.scale.setScalar(s); } });
+});
+</script>
+</body>
+</html>

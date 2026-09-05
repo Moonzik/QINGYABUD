@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>青芽BUD 3D 形象预览 V3</title>
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  <style>
+    body { margin: 0; overflow: hidden; background: linear-gradient(135deg, #e8f5e9 0%, #b2dfdb 100%); }
+    model-viewer { width: 100vw; height: 100vh; }
+    .info {
+      position: absolute;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: rgba(255,255,255,0.85);
+      padding: 10px 20px;
+      border-radius: 24px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      font-size: 14px;
+      color: #2e7d52;
+      pointer-events: none;
+      box-shadow: 0 2px 12px rgba(46,125,82,0.15);
+    }
+    .badge {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      background: rgba(255,255,255,0.85);
+      padding: 8px 14px;
+      border-radius: 16px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      font-size: 12px;
+      color: #2e7d52;
+      pointer-events: none;
+    }
+  </style>
+</head>
+<body>
+  <model-viewer src="qingya_3d_v3.glb"
+    camera-controls auto-rotate shadow-intensity="1"
+    exposure="1.1" environment-image="neutral"
+    alt="青芽BUD 3D 形象 V3">
+  </model-viewer>
+  <div class="badge">V3 · 100万面 · 毛发细节增强</div>
+  <div class="info">青芽BUD · 3D疗愈灵植小兽 · 拖动旋转 / 滚轮缩放</div>
+</body>
+</html>
