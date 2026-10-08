@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<title>青芽 表情包 Demo 预览</title>
+<style>
+  body { margin:0; font-family: -apple-system, "Microsoft YaHei", sans-serif; background:#f3f3f3; }
+  h1 { padding:24px 32px 8px; margin:0; font-size:22px; color:#333; }
+  .sub { padding:0 32px 16px; color:#888; font-size:13px; }
+  .row { display:flex; flex-wrap:wrap; gap:24px; padding:24px 32px; }
+  .card { background:#fff; border-radius:14px; overflow:hidden; box-shadow:0 2px 14px rgba(0,0,0,0.06); width:300px; }
+  .card .chat {
+    /* 微信聊天背景米色 */
+    background:#ededed;
+    padding:30px;
+    display:flex;
+    flex-direction:column;
+    gap:14px;
+    min-height:300px;
+  }
+  .card .label { padding:14px 18px; font-size:13px; color:#666; border-top:1px solid #f0f0f0; }
+  .card .label b { color:#333; }
+  .bubble {
+    background:#fff;
+    padding:8px 10px;
+    border-radius:6px;
+    align-self:flex-end;
+    max-width:200px;
+    font-size:13px;
+    color:#333;
+    box-shadow:0 1px 2px rgba(0,0,0,.08);
+  }
+  .bubble.left { align-self:flex-start; }
+  .sendBox {
+    display:flex;
+    align-items:center;
+    gap:8px;
+  }
+  .sendBox img { width:120px; height:120px; display:block; }
+  .fileNote { padding:0 32px 24px; color:#999; font-size:12px; }
+  .compare {
+    display:flex; gap:14px; align-items:center;
+    background:#fff; border-radius:14px; padding:18px;
+    box-shadow:0 2px 14px rgba(0,0,0,.06);
+    margin:0 32px 24px;
+  }
+  .compare > div { display:flex; flex-direction:column; align-items:center; gap:6px; font-size:12px; color:#666; }
+  .compare img { width:180px; height:180px; display:block; border:1px solid #eee; }
+  .swatch { display:inline-block; width:14px; height:14px; border-radius:3px; vertical-align:middle; margin-right:4px; border:1px solid #ddd; }
+</style>
+</head>
+<body>
+
+<h1>🌱 青芽 表情包 Demo 当前效果</h1>
+<div class="sub">demo = 早安 (01)，v3 版是最终版（带 GrabCut mask 跟踪，14 帧透明）。下方左侧是"嵌入微信聊天"的预览，右侧是几个技术版本的对比。</div>
+
+<div class="row">
+
+  <!-- 卡 1：真实聊天场景 -->
+  <div class="card">
+    <div class="chat">
+      <div class="bubble left">早啊宝</div>
+      <div class="bubble">醒了😪</div>
+      <div class="sendBox">
+        <img src="videos_v4/demo_zaoan_v3.gif" alt="早安">
+        <div class="bubble left" style="margin:0;">hi🌱</div>
+      </div>
+    </div>
+    <div class="label"><b>v3 最终版</b> · 180KB · 14 帧透明 · 240×240 · 嵌入微信聊天背景 #ededed 实际效果</div>
+  </div>
+
+  <!-- 卡 2：单帧气泡 -->
+  <div class="card">
+    <div class="chat">
+      <div class="sendBox">
+        <img src="videos_v4/demo_zaoan_v3.gif" alt="早安">
+        <div class="bubble left" style="margin:0;">送你一根芽</div>
+      </div>
+      <div class="bubble">哈哈好可爱</div>
+    </div>
+    <div class="label"><b>v3 在米色聊天背景</b> · 同一张 GIF，直接发出去的样子</div>
+  </div>
+
+</div>
+
+<div class="compare">
+  <div>
+    <img src="videos_v4/demo_zaoan_v3.gif" style="background:#ededed;">
+    <b>微信背景 #ededed</b>
+    <span style="font-size:11px;">实际嵌入颜色</span>
+  </div>
+  <div>
+    <img src="videos_v4/demo_zaoan_v3.gif" style="background:#ffffff;">
+    <b>纯白 #ffffff</b>
+    <span style="font-size:11px;">有些编辑器替换会显示成这样</span>
+  </div>
+  <div>
+    <img src="videos_v4/demo_zaoan_v3.gif" style="background:#5b6f59;">
+    <b>深绿 #5b6f59</b>
+    <span style="font-size:11px;">深色背景下也透明</span>
+  </div>
+  <div>
+    <img src="videos_v4/demo_zaoan_v3.gif" style="background:repeating-linear-gradient(45deg,#fb8 0 10px,#48b 10px 20px);">
+    <b>棋盘格</b>
+    <span style="font-size:11px;">检验透明度</span>
+  </div>
+</div>
+
+<h2 style="padding:0 32px; color:#444; font-size:17px; margin-bottom:6px;">4 帧分解（看动作幅度）</h2>
+<div class="row">
+  <div class="card">
+    <div class="chat" style="min-height:auto;">
+      <img src="videos_v4/gif_on_bg_00.png" style="width:100%; background:#ededed;">
+    </div>
+    <div class="label"><b>帧 0</b> · 起始</div>
+  </div>
+  <div class="card">
+    <div class="chat" style="min-height:auto;">
+      <img src="videos_v4/gif_on_bg_04.png" style="width:100%; background:#ededed;">
+    </div>
+    <div class="label"><b>帧 4</b> · 眨眼</div>
+  </div>
+  <div class="card">
+    <div class="chat" style="min-height:auto;">
+      <img src="videos_v4/gif_on_bg_08.png" style="width:100%; background:#ededed;">
+    </div>
+    <div class="label"><b>帧 8</b> · 转头</div>
+  </div>
+  <div class="card">
+    <div class="chat" style="min-height:auto;">
+      <img src="videos_v4/gif_on_bg_12.png" style="width:100%; background:#ededed;">
+    </div>
+    <div class="label"><b>帧 12</b> · 抬手 / 复原</div>
+  </div>
+</div>
+
+<div class="fileNote">
+  当前文件清单（videos_v4/）：<br>
+  · <b>demo_zaoan_v3.gif</b> ← 最终版，180KB，14 帧，240×240，透明背景，OpenCV GrabCut 抠像<br>
+  · demo_zaoan_v2.gif — 192KB 早期版本<br>
+  · demo_zaoan_grabcut.gif — 194KB GrabCut 测试版<br>
+  · demo_zaoan_v4_transparent.gif / demo_zaoan_v4_v2.gif — chroma key 早期版（边缘过激）<br>
+  · demo_zaoan_v4.mp4 — VideoGen 原始视频（3 秒，720p，含 AI 水印）<br>
+  · 静帧分解: gif_on_bg_00/04/08/12.png
+</div>
+
+</body>
+</html>

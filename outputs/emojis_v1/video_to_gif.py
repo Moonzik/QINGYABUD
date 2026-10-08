@@ -85,57 +85,70 @@ def detect_watermark_bbox(img: Image.Image, search_box=None) -> Optional[Tuple[i
     return (x0 + bx0, y0 + by0, x0 + bx1, y0 + by1)
 
 
-def remove_watermark_simple(img: Image.Image) -> Image.Image:
+def remove_watermark_simple(img: Image.Image, crop_bottom_pct: float = 0.06) -> Image.Image:
     """
-    简单方案：自动检测水印 bbox，然后：
-    1. 把 bbox 内像素用白色覆盖（轻微羽化边缘）
-    2. 如果水印接近底部，也可以选择直接从源图裁底部 8%
+    v3 升级：直接裁掉底部 crop_bottom_pct 区域（水印必然在这部分），
+    然后用白底重绘边缘。比检测+白方块覆盖更干净。
     """
     w, h = img.size
-    bbox = detect_watermark_bbox(img)
-    if bbox is None:
+    crop_h = int(h * crop_bottom_pct)
+    if crop_h <= 0:
         return img
-    x0, y0, x1, y1 = bbox
-    # 用白色覆盖（做点羽化让边缘柔和）
-    out = img.copy().convert("RGB")
-    draw = ImageDraw.Draw(out)
-    # 加 padding 让覆盖更大一些
-    pad = 4
-    box = (max(0, x0 - pad), max(0, y0 - pad), min(w, x1 + pad), min(h, y1 + pad))
-    draw.rectangle(box, fill=WHITE)
-    # 边缘羽化（用周围白底采样平均）
-    return out
+    # 裁掉底部
+    out = img.crop((0, 0, w, h - crop_h)).copy()
+    # 底部填白
+    canvas = Image.new("RGB", (w, h), WHITE)
+    canvas.paste(out, (0, 0))
+    return canvas
 
 
 # ============================================================
 # 字幕层
 # ============================================================
 
-def make_caption_layer(text: str, width: int = 240, height: int = 44,
-                       font_size: int = 24) -> Image.Image:
-    """创建 RGBA 字幕层：白底圆角矩形 + 黑色微软雅黑 + 绿色描边"""
+def make_caption_layer(text: str, width: int = 240, height: int = 240,
+                       font_size: int = 22,
+                       anchor: str = "bottom-left",
+                       offset_xy: tuple = (10, -10)) -> Image.Image:
+    """
+    创建 RGBA 字幕层（v3 升级：去掉气泡框，直接文字 + 灵活位置）
+    anchor: top-left/top-right/bottom-left/bottom-right/top-center/bottom-center
+    """
     layer = Image.new("RGBA", (width, height), (0, 0, 0, 0))
-    d = ImageDraw.Draw(layer)
     if not text:
         return layer
-    pad = 6
-    rect_box = [pad, 4, width - pad - 1, height - 1]
-    d.rounded_rectangle(rect_box, radius=12, fill=(255, 255, 255, 235),
-                        outline=(150, 200, 160, 200), width=1)
+    d = ImageDraw.Draw(layer)
     font = ImageFont.truetype(FONT_PATH, font_size)
     try:
         bbox = d.textbbox((0, 0), text, font=font)
         tw, th = bbox[2] - bbox[0], bbox[3] - bbox[1]
-        tx = (width - tw) // 2 - bbox[0]
-        ty = (height - th) // 2 - bbox[1] - 2
+        off_x = -bbox[0]
+        off_y = -bbox[1]
     except AttributeError:
         tw, th = d.textsize(text, font=font)
-        tx = (width - tw) // 2
-        ty = (height - th) // 2 - 4
-    # 描边（绿色阴影）
+        off_x, off_y = 0, 0
+    pad = 4
+    ox, oy = offset_xy
+    if anchor == "top-left":
+        x = pad + ox
+        y = pad + oy
+    elif anchor == "top-right":
+        x = width - tw - pad + ox
+        y = pad + oy
+    elif anchor == "bottom-right":
+        x = width - tw - pad + ox
+        y = height - th - pad + oy
+    elif anchor == "top-center":
+        x = (width - tw) // 2 + ox
+        y = pad + oy
+    else:  # bottom-left default
+        x = pad + ox
+        y = height - th - pad + oy
+    # 浅绿色描边（轻微光晕）
     for dx, dy in [(-1, 0), (1, 0), (0, -1), (0, 1)]:
-        d.text((tx + dx, ty + dy), text, font=font, fill=(190, 220, 200, 180))
-    d.text((tx, ty), text, font=font, fill=(40, 60, 50, 255))
+        d.text((x + dx + off_x, y + dy + off_y), text, font=font, fill=(180, 225, 190, 220))
+    # 深绿主色字
+    d.text((x + off_x, y + off_y), text, font=font, fill=(30, 70, 45, 255))
     return layer
 
 
@@ -180,30 +193,35 @@ def make_gif_from_video(
     size: int = EMOJI_SIZE,
     frames: int = TARGET_FRAMES,
     duration_ms: int = FRAME_DURATION_MS,
+    caption_anchor: str = "bottom-left",
+    caption_font_size: int = 22,
     transparent_bg: bool = False,
 ) -> Tuple[str, int]:
     """
-    主入口：MP4 → GIF（去水印+字幕+缩放+透明背景）
+    主入口：MP4 → GIF（裁底部去水印+字幕+缩放）
+    caption_anchor / caption_font_size 控制字幕位置和字号
     """
     pil_frames = extract_clean_frames(mp4_path, target_count=frames)
     if not pil_frames:
         return out_gif, 0
 
-    # 字幕
-    cap_layer = make_caption_layer(caption, width=size, height=44)
+    # 字幕层（v3：全画面尺寸、灵活位置，无气泡框）
+    cap_layer = make_caption_layer(
+        caption, width=size, height=size,
+        font_size=caption_font_size,
+        anchor=caption_anchor,
+    )
 
     out_frames = []
     for img in pil_frames:
         small = img.resize((size, size), Image.LANCZOS)
-        # 字幕层（白底圆角矩形，alpha 235 接近不透明，叠在底色上无违和）
         rgba = small.convert("RGBA")
-        rgba.alpha_composite(cap_layer)
-        # 合成回 RGB 白底（GIF 用）
+        if caption:
+            rgba.alpha_composite(cap_layer)
         rgb = Image.new("RGB", (size, size), WHITE)
         rgb.paste(rgba, mask=rgba.split()[3])
         out_frames.append(rgb)
 
-    # 保存 GIF
     out_frames[0].save(
         out_gif,
         save_all=True,

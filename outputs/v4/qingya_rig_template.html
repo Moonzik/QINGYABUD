@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>青芽BUD · 骨骼绑定 + 形态键版</title>
+<style>
+:root{--bg1:#f8f5f2;--bg2:#eef3ef;--ink:#453d35;--muted:#92867a;--accent:#73c99d;--accent2:#eba8b8;--warn:#b85f38;--card:rgba(255,255,255,.88)}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;height:100%;overflow:hidden;font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;color:var(--ink);background:linear-gradient(180deg,var(--bg1),var(--bg2))}
+#app{display:flex;flex-direction:column;height:100vh}
+header{height:64px;padding:12px 22px;background:rgba(255,255,255,.74);backdrop-filter:blur(12px);border-bottom:1px solid rgba(115,201,157,.24);display:flex;align-items:center;justify-content:space-between;z-index:10}
+header h1{margin:0;font-size:18px;font-weight:650;letter-spacing:.01em}
+.meta{font-size:12px;color:var(--muted);margin-top:3px}
+.stage{flex:1;position:relative;overflow:hidden}
+#canvas{width:100%;height:100%;display:block;cursor:grab}
+#canvas:active{cursor:grabbing}
+#loader{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;background:linear-gradient(180deg,var(--bg1),var(--bg2));z-index:6;transition:opacity .45s}
+#loader.hidden{opacity:0;pointer-events:none}
+#loader .title{font-size:22px;font-weight:600;margin-bottom:10px}
+#loader .sub{font-size:13px;color:var(--muted);margin-bottom:28px}
+.pw{width:min(360px,72vw);height:7px;background:rgba(115,201,157,.18);border-radius:999px;overflow:hidden}
+.pb{height:100%;width:0%;background:linear-gradient(90deg,var(--accent),var(--accent2));transition:width .2s}
+.pt{margin-top:12px;font-size:12px;color:var(--muted)}
+.err{max-width:560px;margin:14px 24px 0;padding:10px 12px;border-radius:10px;background:rgba(184,95,56,.08);color:var(--warn);font-size:12px;line-height:1.5;display:none}
+#status{position:absolute;left:22px;top:22px;max-width:340px;background:var(--card);backdrop-filter:blur(10px);border:1px solid rgba(115,201,157,.3);border-radius:16px;padding:11px 14px;font-size:12px;color:var(--muted);box-shadow:0 8px 30px rgba(69,61,53,.08);z-index:4}
+#status strong{display:block;color:var(--ink);font-size:13px;margin-bottom:3px}
+.controls{position:absolute;left:22px;bottom:22px;width:min(390px,calc(100vw - 44px));background:var(--card);backdrop-filter:blur(12px);border:1px solid rgba(115,201,157,.3);border-radius:22px;padding:14px;box-shadow:0 10px 34px rgba(69,61,53,.1);z-index:4}
+.row{display:flex;gap:8px;align-items:center;margin-bottom:8px}.row:last-child{margin-bottom:0}
+label{font-size:12px;color:var(--muted);min-width:58px}
+button{border:1.5px solid rgba(115,201,157,.42);background:#fff;color:var(--ink);font-size:12px;padding:6px 13px;border-radius:999px;cursor:pointer;transition:all .18s}
+button:hover{border-color:var(--accent);background:rgba(115,201,157,.12)}
+button.active{background:var(--accent);border-color:var(--accent);color:#fff}
+.preset{display:flex;gap:6px;flex-wrap:wrap}
+input[type=range]{flex:1;accent-color:var(--accent)}
+.hint{position:absolute;right:22px;bottom:22px;max-width:280px;background:rgba(255,255,255,.72);border:1px solid rgba(115,201,157,.22);border-radius:16px;padding:10px 13px;font-size:12px;line-height:1.6;color:var(--muted);z-index:4}
+@media(max-width:760px){.hint{display:none}.controls{padding:12px}.row{flex-wrap:wrap}label{min-width:52px}button{padding:5px 10px}}
+.slider-row{display:flex;align-items:center;gap:8px;font-size:11px;color:var(--ink);margin:3px 0}
+.slider-row span{width:44px;flex:none;color:var(--muted)}
+.slider-row input{flex:1;accent-color:#7cc9a2;height:3px;margin:0}
+.slider-row b{width:26px;text-align:right;font-weight:600;font-variant-numeric:tabular-nums;color:var(--muted)}
+</style>
+</head>
+<body>
+<div id="app">
+  <header>
+    <div><h1>青芽BUD · 骨骼绑定 + 形态键版</h1><div class="meta">Blender 骨骼绑定 + 形态键驱动；单文件加载，不依赖网络</div></div>
+    <div class="meta" id="meta-stats">初始化...</div>
+  </header>
+  <div class="stage">
+    <canvas id="canvas"></canvas>
+    <div id="loader">
+      <div class="title">青芽正在醒来</div>
+      <div class="sub">正在解码内置骨骼与形态键数据</div>
+      <div class="pw"><div class="pb" id="bar"></div></div>
+      <div class="pt" id="bar-text">0%</div>
+      <div class="err" id="err-msg"></div>
+    </div>
+    <div id="status"><strong>青芽BUD</strong><div id="status-text">初始化...</div></div>
+    <div class="controls">
+      <div class="row"><label>自动旋转</label><button id="btn-rotate" class="active">开</button><label>柔和浮动</label><button id="btn-float" class="active">开</button></div>
+      <div class="row"><label>眨眼</label><button id="btn-blink" class="active">开</button><label>骨骼动作</label><button id="btn-rig" class="active">开</button></div>
+      <div class="row"><label>粒子</label><button id="btn-particles" class="active">开</button><label>视角</label><div class="preset"><button data-view="front">正面</button><button data-view="side">侧面</button><button data-view="back">背面</button><button data-view="cute">近景</button></div></div>
+      <div class="row"><label>浮动幅度</label><input type="range" id="float-amp" min="10" max="100" value="50"></div>
+      <div class="row" style="display:block;border-top:1px solid rgba(115,201,157,.25);margin-top:6px;padding-top:8px">
+        <div style="display:flex;align-items:center;gap:8px;margin-bottom:6px">
+          <label style="margin:0;min-width:auto">形态键手动控制</label>
+          <button id="btn-manual">接管</button>
+          <span id="manual-hint" style="font-size:11px;color:var(--muted)">点「接管」后拖动滑块</span>
+        </div>
+        <div class="slider-row"><span>眨眼 L</span><input type="range" class="mk" data-mk="blink_L" min="0" max="100" value="0"><b>0</b></div>
+        <div class="slider-row"><span>眨眼 R</span><input type="range" class="mk" data-mk="blink_R" min="0" max="100" value="0"><b>0</b></div>
+        <div class="slider-row"><span>眯眼 L</span><input type="range" class="mk" data-mk="squint_L" min="0" max="100" value="0"><b>0</b></div>
+        <div class="slider-row"><span>眯眼 R</span><input type="range" class="mk" data-mk="squint_R" min="0" max="100" value="0"><b>0</b></div>
+        <div class="slider-row"><span>张嘴</span><input type="range" class="mk" data-mk="mouth_open" min="0" max="100" value="0"><b>0</b></div>
+        <div class="slider-row"><span>微笑</span><input type="range" class="mk" data-mk="smile" min="0" max="100" value="0"><b>0</b></div>
+      </div>
+    </div>
+    <div class="hint">眨眼/张嘴/微笑由 Blender 形态键驱动，尾巴摆动和嫩芽晃动由骨骼驱动，不会出现顶点撕裂。</div>
+  </div>
+</div>
+<script>window.__GLB_BASE64__ = "%%GLB_BASE64%%";</script>
+<script>
+%%BUNDLE%%
+</script>
+</body>
+</html>

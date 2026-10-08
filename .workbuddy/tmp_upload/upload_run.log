@@ -1,0 +1,32 @@
+total files: 456
+[19/456] FAIL qingya_3d_20260905.zip
+[20/456] OK  emojis_v1/qy_01_zaoan.png
+[40/456] OK  emojis_v1/qy_08_baobao.gif
+[60/456] OK  emojis_v1/qy_16_meiguanxi.png
+[80/456] OK  emojis_v1/qy_22_duilian_qinqin.png
+[100/456] OK  emojis_v1/v6_assets/tear.png
+[120/456] OK  emojis_v1/v6_gifs/qy_17_sikao.gif
+[140/456] OK  emojis_v1/v6_videos/Quick_small_head_nod_as_if_sal_2026-09-05T14-46-48.mp4
+[160/456] OK  emojis_v1/videos_test/6frames_strip.png
+[180/456] OK  emojis_v1/videos_v4/chat_bg_correct.png
+[200/456] OK  emojis_v1/videos_v4/gc_final_12.png
+[220/456] OK  emojis_v1/videos_v4/gif_on_bg_12.png
+[240/456] OK  emojis_v1/videos_v5/rembg_07.png
+[260/456] OK  v3/qingya_3d_v3_result.json
+[264/456] FAIL v2/qingya_3d_v2.zip
+[268/456] FAIL v3/qingya_3d_v3.zip
+[280/456] OK  v4/f_blink.png
+[300/456] OK  v4/qingya_3d_v4_rigged.glb
+[320/456] OK  v4/rig_front.png
+[340/456] OK  v4/lib/GLTFLoader.js
+[360/456] OK  v4/qingya_3d_v4.glb
+[380/456] OK  _cloud/models/v4/face_regions_check.png
+[386/456] FAIL _cloud/models/v1/qingya_3d_20260905.zip
+[400/456] OK  _cloud/models/v4/pose_smile.png
+[420/456] OK  _cloud/models/v4/rig_render.png
+[440/456] OK  _cloud/videos/Quick_small_head_nod_as_if_sal_2026-09-05T14-46-48.mp4
+DONE ok=452 fail=4
+FAILED: qingya_3d_20260905.zip {"error": "上传凭证响应缺少 uploadUrl 或 cosKey"}
+FAILED: v2/qingya_3d_v2.zip {"error": "上传凭证响应缺少 uploadUrl 或 cosKey"}
+FAILED: v3/qingya_3d_v3.zip {"error": "上传凭证响应缺少 uploadUrl 或 cosKey"}
+FAILED: _cloud/models/v1/qingya_3d_20260905.zip {"error": "上传凭证响应缺少 uploadUrl 或 cosKey"}

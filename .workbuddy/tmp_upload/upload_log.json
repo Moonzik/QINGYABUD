@@ -1,0 +1,4106 @@
+[
+ {
+  "rel": "qingya_3d_20260905_viewer.html",
+  "ok": true,
+  "kind": "page",
+  "size": 1129,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "qingya_3d_20260905_preview.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 123247,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "qingya_reference.jpg",
+  "ok": true,
+  "kind": "drive",
+  "size": 196660,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "server.log",
+  "ok": true,
+  "kind": "drive",
+  "size": 46112,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "青芽BUD完整计划书V1.0.docx",
+  "ok": true,
+  "kind": "drive",
+  "size": 47202,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/chroma_key.py",
+  "ok": true,
+  "kind": "drive",
+  "size": 4060,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/batch1_preview.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 290515,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/emojis_preview_grid.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 979932,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/final_preview_v3.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 117048,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/grabcut_alphabg.py",
+  "ok": true,
+  "kind": "drive",
+  "size": 5784,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/make_emojis_v6_batch.py",
+  "ok": true,
+  "kind": "drive",
+  "size": 11529,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "qingya_3d_20260905.glb",
+  "ok": true,
+  "kind": "drive",
+  "size": 42274072,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/make_gifs.py",
+  "ok": true,
+  "kind": "drive",
+  "size": 7253,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/make_gifs_v2.py",
+  "ok": true,
+  "kind": "drive",
+  "size": 13147,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/make_v6_grid.py",
+  "ok": true,
+  "kind": "drive",
+  "size": 2428,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/make_preview_grid.py",
+  "ok": true,
+  "kind": "drive",
+  "size": 4003,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/make_v6_gifs.py",
+  "ok": true,
+  "kind": "drive",
+  "size": 9527,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/qy_01_zaoan.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 491096,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "qingya_3d_20260905.zip",
+  "ok": false,
+  "kind": "page",
+  "size": 34194412,
+  "url": "",
+  "err": "{\"error\": \"上传凭证响应缺少 uploadUrl 或 cosKey\"}",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/qy_01_zaoan.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 1319641,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/qy_01_zaoan_v3_mid.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 59375,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/qy_02_wanan.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 490534,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/qy_03_zaine.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 170432,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/qy_02_wanan.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 1325176,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/qy_03_zaine.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 1290016,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/qy_03_zaine_audit.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 30442,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/qy_04_jiayou.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 418951,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/qy_04_jiayou.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 1301400,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/qy_05_weiqu.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 204734,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/qy_04_jiayou_v3_mid.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 49853,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/qy_05_weiqu_audit.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 36360,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/qy_05_weiqu.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 1331770,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/qy_05_weiqu_sample.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 295089,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/qy_05_weiqu_sample_preview.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 48612,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/qy_06_emo.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 181941,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/qy_06_emo.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 1293150,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/qy_06_emo_audit.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 32592,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/qy_07_kaixin.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 167168,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/qy_07_kaixin.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 1345833,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/qy_08_baobao.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 208084,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/qy_08_baobao.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 1346793,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/qy_09_bixin.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 461301,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/qy_09_bixin_v3_mid.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 58910,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/qy_09_bixin.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 1315925,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/qy_10_cengceng.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 173038,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/qy_10_cengceng.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 1325011,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/qy_10_cengceng_audit.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 30677,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/qy_11_qinqin.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 459391,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/qy_11_qinqin_v3_mid.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 57254,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/qy_11_qinqin.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 1207134,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/qy_12_tietie.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 170919,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/qy_13_shoudao.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 188685,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/qy_14_xiexie.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 183639,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/qy_12_tietie.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 1293476,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/qy_13_shoudao.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 1266697,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/qy_14_xiexie.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 1285670,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/qy_15_bukeqi.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 168005,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/qy_16_meiguanxi.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 182638,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/qy_15_bukeqi.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 1334685,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/qy_16_meiguanxi.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 1334747,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/qy_17_sikao.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 915713,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/qy_17_sikao.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 205394,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/qy_17_sikao_sample.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 275333,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/qy_17_sikao_sample_preview.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 45351,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/qy_18_aiya.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 173041,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/qy_18_aiya_audit.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 30874,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/qy_18_aiya.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 1068382,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/qy_18_aiya_sample.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 305805,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/qy_18_aiya_sample_preview.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 40455,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/qy_19_ele_audit.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 34283,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/qy_19_ele_sample.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 281369,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/qy_19_ele.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 190131,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/qy_19_ele.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 1282481,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/qy_19_ele_sample_preview.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 47570,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/qy_20_xiangni.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 196926,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/qy_20_xiangni_audit.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 34586,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/qy_21_duilian_wink.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 299843,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/qy_21_duilian_wink.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 1595788,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/qy_22_duilian_qinqin.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 286430,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/qy_22_duilian_qinqin.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 1618223,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/qy_20_xiangni.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 1318629,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/qy_23_duilian_haixiu.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 303162,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/qy_23_duilian_haixiu.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 1558590,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/qy_24_duilian_miyankxiao.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 277833,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/qy_24_duilian_miyankxiao.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 1584861,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/qy_test_nenya.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 1018041,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/qy_test_v5.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 942099,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/test_chroma.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 63726,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/test_chroma_on_chat_bg.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 36744,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/v6_emojis.json",
+  "ok": true,
+  "kind": "drive",
+  "size": 8128,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/v6_grid_preview.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 1173297,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/qp_test/A_cute_round_fluffy_fantasy_pl_2026-09-05T12-44-10.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 942099,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/v6_assets/drool.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 524,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/v6_assets/exclaim.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 862,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/v6_assets/heart_big.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 1895,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/v6_assets/glow.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 3006,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/v6_assets/heart_small.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 893,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/v6_assets/qmark.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 1551,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/v6_assets/sunray.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 2452,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/v6_assets/tear.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 499,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/v6_base/A_cute_round_fluffy_fantasy_pl_2026-09-05T13-54-33.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 1278275,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/v6_base/A_cute_round_fluffy_fantasy_pl_2026-09-05T13-56-28.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 1176492,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/v6_base/A_cute_round_fluffy_fantasy_pl_2026-09-05T13-56-29.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 1229061,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/v6_base/Extreme_close_up_of_the_face_a_2026-09-05T13-56-27.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 1435207,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/v6_gifs/qy_03_zaine.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 342312,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/v6_gifs/qy_04_jiayou.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 363687,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/v6_gifs/qy_05_weiqu.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 235101,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/v6_gifs/qy_06_emo.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 325620,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/v6_gifs/qy_07_kaixin.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 350886,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/video_to_gif.py",
+  "ok": true,
+  "kind": "drive",
+  "size": 8279,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/v6_gifs/qy_09_bixin.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 286185,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/v6_gifs/qy_08_baobao.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 344206,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/v6_gifs/qy_10_cengceng.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 341226,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/v6_gifs/qy_11_qinqin.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 165762,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/v6_gifs/qy_13_shoudao.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 352455,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/v6_gifs/qy_14_xiexie.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 322096,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/v6_gifs/qy_15_bukeqi.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 350162,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/v6_gifs/qy_12_tietie.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 347817,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/v6_gifs/qy_16_meiguanxi.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 357211,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/v6_gifs/qy_17_sikao.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 229001,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/v6_gifs/qy_18_aiya.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 196449,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/v6_gifs/qy_19_ele.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 340151,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/v6_gifs/qy_20_xiangni.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 348627,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/v6_gifs/qy_21_duilian_wink.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 194248,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/v6_gifs/qy_22_duilian_qinqin.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 323817,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/v6_gifs/qy_23_duilian_haixiu.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 232841,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/v6_gifs/qy_24_duilian_miyankxiao.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 236801,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/v6_src/qy_base.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 1221156,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/v6_src/qy_sleep.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 1122369,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/v6_src/qy_closeup.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 1326046,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/v6_videos/Apologetic_tilt_of_head_to_sid_2026-09-05T14-49-59.mp4",
+  "ok": true,
+  "kind": "drive",
+  "size": 3685791,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/v6_videos/Brings_both_paws_up_to_cheeks__2026-09-05T15-00-38.mp4",
+  "ok": true,
+  "kind": "drive",
+  "size": 4516452,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/v6_videos/Ears_droop_downward_slowly__ey_2026-09-05T14-03-51.mp4",
+  "ok": true,
+  "kind": "drive",
+  "size": 4028223,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/v6_videos/Eyes_narrow_into_a_squinty_hap_2026-09-05T15-02-55.mp4",
+  "ok": true,
+  "kind": "drive",
+  "size": 4381288,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/v6_videos/Head_hangs_low__eyes_look_up_t_2026-09-05T14-03-15.mp4",
+  "ok": true,
+  "kind": "drive",
+  "size": 3712300,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/v6_videos/Front_paws_reach_up_longingly__2026-09-05T14-57-38.mp4",
+  "ok": true,
+  "kind": "drive",
+  "size": 3887495,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/v6_videos/Lifts_both_front_paws_upward_i_2026-09-05T14-00-05.mp4",
+  "ok": true,
+  "kind": "drive",
+  "size": 4164820,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/v6_videos/Happy_bouncy_up_down_body_moti_2026-09-05T13-59-49.mp4",
+  "ok": true,
+  "kind": "drive",
+  "size": 5007202,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/v6_videos/Plays_a_slow_wink__one_eye_gen_2026-09-05T14-58-43.mp4",
+  "ok": true,
+  "kind": "drive",
+  "size": 4205917,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/v6_videos/Quick_small_head_nod_as_if_sal_2026-09-05T14-46-48.mp4",
+  "ok": true,
+  "kind": "drive",
+  "size": 3736080,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/v6_videos/Reaches_both_front_paws_forwar_2026-09-05T14-03-16.mp4",
+  "ok": true,
+  "kind": "drive",
+  "size": 4173361,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/v6_videos/Shakes_head_gently_from_side_t_2026-09-05T14-52-08.mp4",
+  "ok": true,
+  "kind": "drive",
+  "size": 4258473,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/v6_videos/Shy_smile__eyes_look_down_then_2026-09-05T15-01-53.mp4",
+  "ok": true,
+  "kind": "drive",
+  "size": 4485762,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/v6_videos/Slowly_leans_closer_toward_cam_2026-09-05T14-00-47.mp4",
+  "ok": true,
+  "kind": "drive",
+  "size": 4937135,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/v6_videos/Small_gentle_bow__head_lowers__2026-09-05T14-48-54.mp4",
+  "ok": true,
+  "kind": "drive",
+  "size": 3875350,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/v6_videos/Slowly_leans_forward_toward_ca_2026-09-05T14-03-16.mp4",
+  "ok": true,
+  "kind": "drive",
+  "size": 4233999,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/v6_videos/Slowly_turns_head_from_side_to_2026-09-05T14-03-10.mp4",
+  "ok": true,
+  "kind": "drive",
+  "size": 3747878,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/v6_videos/Small_surprised_expression__ey_2026-09-05T14-55-17.mp4",
+  "ok": true,
+  "kind": "drive",
+  "size": 4981205,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/v6_videos/Soft_gentle_blink__slow_subtle_2026-09-05T14-00-00.mp4",
+  "ok": true,
+  "kind": "drive",
+  "size": 3764578,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/v6_videos/Soft_slow_breathing_while_slee_2026-09-05T13-59-49.mp4",
+  "ok": true,
+  "kind": "drive",
+  "size": 3632665,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/v6_videos/Tilts_head_to_one_side_and_pre_2026-09-05T14-03-26.mp4",
+  "ok": true,
+  "kind": "drive",
+  "size": 3534559,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/v6_videos/Tilts_head_to_one_side_in_curi_2026-09-05T14-53-35.mp4",
+  "ok": true,
+  "kind": "drive",
+  "size": 4550999,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/v6_videos/Tilt_head_slightly_to_one_side_2026-09-05T14-00-00.mp4",
+  "ok": true,
+  "kind": "drive",
+  "size": 4190123,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/v6_videos/Tongue_flicks_out_briefly_lick_2026-09-05T14-56-33.mp4",
+  "ok": true,
+  "kind": "drive",
+  "size": 3663846,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos/qy_01_zaoan.mp4",
+  "ok": true,
+  "kind": "drive",
+  "size": 2720138,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos/qy_04_jiayou.mp4",
+  "ok": true,
+  "kind": "drive",
+  "size": 2767062,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos/qy_09_bixin.mp4",
+  "ok": true,
+  "kind": "drive",
+  "size": 2310152,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos/qy_11_qinqin.mp4",
+  "ok": true,
+  "kind": "drive",
+  "size": 2776533,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos/国风3D_Q版灵植小兽青芽_巴掌大小圆滚滚幼态体型_白绿渐变_2026-09-05T11-50-34.mp4",
+  "ok": true,
+  "kind": "drive",
+  "size": 2957350,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_test/6frames_strip.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 326356,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_test/frame_00.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 49131,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos/国风3D_Q版灵植小兽青芽_巴掌大小圆滚滚幼态体型_白绿渐变_2026-09-05T11-57-22.mp4",
+  "ok": true,
+  "kind": "drive",
+  "size": 2647442,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_test/frame_05.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 52971,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_test/frame_02.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 57495,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_test/frame_08.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 52338,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_test/frame_10.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 56696,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_test/frame_12.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 52538,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_test/key_00.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 537632,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_test/key_18.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 510740,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_test/key_36.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 534908,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_test/key_54.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 512637,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_test/nowm_36.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 522569,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_test/nowm_72.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 558763,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_test/nowm_61.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 571736,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_test/test_pipeline.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 424431,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_test/test_pipeline_mid.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 52338,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_test/国风3D_Q版灵植小兽青芽_巴掌大小圆滚滚幼态体型_白绿渐变_2026-09-05T11-28-12.mp4",
+  "ok": true,
+  "kind": "drive",
+  "size": 2583939,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_test/国风3D_Q版灵植小兽青芽_巴掌大小圆滚滚幼态体型_白绿渐变_2026-09-05T11-32-16.mp4",
+  "ok": true,
+  "kind": "drive",
+  "size": 2519173,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_v4/demo_4frames_preview.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 34982,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_v4/chat_bg_correct.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 115275,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_v4/demo_frame_00.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 568639,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_v4/demo_frame_04.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 519772,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_v4/demo_frame_08.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 396195,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_v4/demo_on_chat_4frames.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 116704,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_v4/demo_frame_12.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 424101,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_v4/demo_v2_4frames.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 25958,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_v4/demo_v2_frame_00.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 479174,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_v4/demo_v2_frame_04.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 503949,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_v4/demo_v2_frame_08.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 514955,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_v4/demo_v2_frame_12.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 544340,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_v4/demo_zaoan_v2.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 170810,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_v4/demo_zaoan_grabcut.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 194223,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_v4/demo_zaoan_v3.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 180427,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_v4/demo_zaoan_v4.mp4",
+  "ok": true,
+  "kind": "drive",
+  "size": 2957239,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_v4/demo_zaoan_v4_transparent.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 188864,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_v4/demo_zaoan_v4_v2.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 240473,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_v4/gc_final_00.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 437224,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_v4/gc_final_04.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 441773,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_v4/gc_final_08.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 410576,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_v4/gc_final_12.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 426224,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_v4/gc_final_4frames.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 11986,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_v4/gc_v2_00.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 399958,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_v4/gc_v2_04.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 403454,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_v4/gc_v2_08.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 348675,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_v4/gc_v2_12.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 380401,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_v4/gc_v2_4frames.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 11697,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_v4/gc_v3_00.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 424053,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_v4/gc_v3_04.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 427552,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_v4/gc_v3_08.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 383761,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_v4/gc_v3_4frames.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 11670,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_v4/gc_v3_12.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 399421,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_v4/gif_4frames_on_chat_bg.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 116704,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_v4/gif_frame_00.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 28209,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_v4/gif_frame_04.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 26887,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_v4/gif_frame_08.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 26398,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_v4/gif_frame_12.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 27701,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_v4/gif_on_bg_00.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 28191,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_v4/gif_on_bg_04.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 26887,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_v4/gif_on_bg_08.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 26398,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_v4/gif_on_bg_12.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 27701,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_v4/p_mode_00.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 13020,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_v4/grabcut_single_test.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 444205,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_v5/A_cute_round_fluffy_fantasy_pl_2026-09-05T12-47-42.mp4",
+  "ok": true,
+  "kind": "drive",
+  "size": 3527326,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_v5/demo_zaoan_v5.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 212550,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_v5/check_frame_00.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 493295,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_v5/demo_zaoan_v5_rembg.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 257941,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_v5/raw_frame_000.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 493295,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_v5/raw_frame_004.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 540871,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_v5/raw_frame_008.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 563282,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_v5/raw_frame_030.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 552211,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_v5/raw_frame_012.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 554372,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_v5/raw_frame_060.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 539803,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_v5/rembg_00.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 600204,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_v5/rembg_01.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 600442,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_v5/rembg_03.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 576339,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_v5/rembg_02.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 561997,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_v5/rembg_04.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 604587,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_v5/rembg_06.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 587089,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_v5/rembg_05.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 586564,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_v5/rembg_07.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 599588,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_v5/rembg_08.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 602158,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_v5/rembg_11.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 597231,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_v5/rembg_10.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 585434,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_v5/rembg_12.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 582425,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_v5/rembg_09.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 571059,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_v5/rembg_13.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 613578,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_v5/v5_4frames.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 31493,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_v5/rembg_isnet_test.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 601842,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_v5/v5_frame_00.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 449762,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_v5/v5_frame_04.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 468718,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_v5/v5_frame_12.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 489879,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_v5/v5_frame_08.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 477010,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v2/qingya_3d_v2_viewer.html",
+  "ok": true,
+  "kind": "page",
+  "size": 1651,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "emojis_v1/videos_v5/v5_rembg_4frames.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 233616,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v2/qingya_3d_v2_preview.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 97530,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v2/qingya_3d_v2_result.json",
+  "ok": true,
+  "kind": "drive",
+  "size": 1855,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v2/qingya_reference_v2.jpg",
+  "ok": true,
+  "kind": "drive",
+  "size": 630781,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v2/qingya_reference_v2b.jpg",
+  "ok": true,
+  "kind": "drive",
+  "size": 211572,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v3/qingya_3d_v3_preview.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 102927,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v3/qingya_3d_v3_result.json",
+  "ok": true,
+  "kind": "drive",
+  "size": 1855,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v3/qingya_3d_v3_viewer.html",
+  "ok": true,
+  "kind": "page",
+  "size": 1648,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v3/urls.json",
+  "ok": true,
+  "kind": "drive",
+  "size": 1114,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/back_result.json",
+  "ok": true,
+  "kind": "drive",
+  "size": 4082,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v2/qingya_3d_v2.zip",
+  "ok": false,
+  "kind": "page",
+  "size": 37879363,
+  "url": "",
+  "err": "{\"error\": \"上传凭证响应缺少 uploadUrl 或 cosKey\"}",
+  "node": ""
+ },
+ {
+  "rel": "v4/back_url.txt",
+  "ok": true,
+  "kind": "drive",
+  "size": 369,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/base_1.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 386579,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/base_2.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 386898,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v3/qingya_3d_v3.zip",
+  "ok": false,
+  "kind": "page",
+  "size": 51660267,
+  "url": "",
+  "err": "{\"error\": \"上传凭证响应缺少 uploadUrl 或 cosKey\"}",
+  "node": ""
+ },
+ {
+  "rel": "v4/c_off_1.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 366904,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/c_off_2.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 367130,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/c_on_1.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 342305,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/c_on_2.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 367291,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v2/qingya_3d_v2.glb",
+  "ok": true,
+  "kind": "drive",
+  "size": 46607412,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/eye_scatter.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 251132,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/face_regions.json",
+  "ok": true,
+  "kind": "drive",
+  "size": 19997,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/face_regions_check.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 141398,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/face_regions_corrected.json",
+  "ok": true,
+  "kind": "drive",
+  "size": 9224,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/face_regions_falloff.json",
+  "ok": true,
+  "kind": "drive",
+  "size": 53570,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/fix_falloff.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 346709,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/f_blink.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 366234,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/f_mouth.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 366350,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/f_rest.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 367088,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/f_smile.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 366305,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/g_mouth.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 366244,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/g_rest.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 366740,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/g_smile.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 415192,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/mouth_1.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 384736,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/mouth_2.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 348795,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/mouth_3.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 386206,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/pose_blink.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 387258,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/pose_mouth.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 319917,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/pose_rest.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 388349,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/qingya_3d_evolution.jpg",
+  "ok": true,
+  "kind": "drive",
+  "size": 170919,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/pose_smile.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 386977,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/qingya_3d_v4_clean.html",
+  "ok": true,
+  "kind": "page",
+  "size": 6808287,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/qingya_3d_v4_clean.glb",
+  "ok": true,
+  "kind": "drive",
+  "size": 4667980,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/qingya_3d_v4_face_offline.html",
+  "ok": true,
+  "kind": "page",
+  "size": 4901779,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/qingya_3d_v4_preview.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 97560,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/qingya_3d_v4_result.json",
+  "ok": true,
+  "kind": "drive",
+  "size": 1878,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/qingya_3d_v4_rigged.glb",
+  "ok": true,
+  "kind": "drive",
+  "size": 4681608,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/qingya_3d_v4_viewer.html",
+  "ok": true,
+  "kind": "page",
+  "size": 14931,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/qingya_3d_v4_rigged.html",
+  "ok": true,
+  "kind": "page",
+  "size": 6823350,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/qingya_3d_v4_vivid.glb",
+  "ok": true,
+  "kind": "drive",
+  "size": 3189688,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/qingya_3d_v4_web.glb",
+  "ok": true,
+  "kind": "drive",
+  "size": 3274188,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/qingya_face_bundle.js",
+  "ok": true,
+  "kind": "drive",
+  "size": 587693,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/qingya_face_offline_check.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 355776,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/qingya_face_offline_t1.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 338029,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v3/qingya_3d_v3.glb",
+  "ok": true,
+  "kind": "drive",
+  "size": 70076076,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/qingya_face_offline_t15.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 375534,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/qingya_face_offline_t3.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 388959,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/qingya_face_offline_t2.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 390670,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/qingya_3d_v4_preview.glb",
+  "ok": true,
+  "kind": "drive",
+  "size": 41458524,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/qingya_face_offline_template.html",
+  "ok": true,
+  "kind": "page",
+  "size": 5486,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/qingya_face_offline_t30.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 364800,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/qingya_rig_template.html",
+  "ok": true,
+  "kind": "page",
+  "size": 7102,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/qingya_rig.py",
+  "ok": true,
+  "kind": "drive",
+  "size": 37790,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/qingya_rig_bundle.js",
+  "ok": true,
+  "kind": "drive",
+  "size": 574128,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/qingya_3d_v4_lite.glb",
+  "ok": true,
+  "kind": "drive",
+  "size": 36487312,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/rig_final.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 360503,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/rig_front.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 302439,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/rig_render.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 343431,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/rig_report.json",
+  "ok": true,
+  "kind": "drive",
+  "size": 2007,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/rig_rest.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 368017,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/side_result.json",
+  "ok": true,
+  "kind": "drive",
+  "size": 3886,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/side_url.txt",
+  "ok": true,
+  "kind": "drive",
+  "size": 369,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/teeth_always.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 365098,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/tex_comparison.jpg",
+  "ok": true,
+  "kind": "drive",
+  "size": 227273,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/tex_vibrant_1k.jpg",
+  "ok": true,
+  "kind": "drive",
+  "size": 255246,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/t_open_1.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 351737,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/t_open_2.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 366649,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/tex_vibrant.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 18175560,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/t_rest_1.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 368053,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/t_rest_2.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 367541,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/urls.json",
+  "ok": true,
+  "kind": "drive",
+  "size": 1114,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/lib/BufferGeometryUtils.js",
+  "ok": true,
+  "kind": "drive",
+  "size": 31918,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/uv_clusters.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 1624092,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/lib/CopyShader.js",
+  "ok": true,
+  "kind": "drive",
+  "size": 571,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/lib/EffectComposer.js",
+  "ok": true,
+  "kind": "drive",
+  "size": 4654,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/tex_original.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 13910855,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/lib/GLTFLoader.js",
+  "ok": true,
+  "kind": "drive",
+  "size": 108527,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/lib/MaskPass.js",
+  "ok": true,
+  "kind": "drive",
+  "size": 2231,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/lib/LuminosityHighPassShader.js",
+  "ok": true,
+  "kind": "drive",
+  "size": 1204,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/lib/Pass.js",
+  "ok": true,
+  "kind": "drive",
+  "size": 1718,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/lib/OrbitControls.js",
+  "ok": true,
+  "kind": "drive",
+  "size": 29880,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/lib/RenderPass.js",
+  "ok": true,
+  "kind": "drive",
+  "size": 1927,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/lib/ShaderPass.js",
+  "ok": true,
+  "kind": "drive",
+  "size": 1588,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/lib/RoomEnvironment.js",
+  "ok": true,
+  "kind": "drive",
+  "size": 3747,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/lib/three.module.js",
+  "ok": true,
+  "kind": "drive",
+  "size": 1272972,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/lib/UnrealBloomPass.js",
+  "ok": true,
+  "kind": "drive",
+  "size": 12400,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/docs/青芽BUD完整计划书V1.0.docx",
+  "ok": true,
+  "kind": "drive",
+  "size": 47202,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/emojis/qy_03_zaine.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 342312,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/emojis/qy_04_jiayou.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 363687,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/emojis/qy_05_weiqu.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 235101,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/emojis/qy_06_emo.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 325620,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/emojis/qy_07_kaixin.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 350886,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/emojis/qy_08_baobao.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 344206,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/emojis/qy_09_bixin.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 286185,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/emojis/qy_10_cengceng.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 341226,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/emojis/qy_11_qinqin.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 165762,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "v4/qingya_3d_v4.glb",
+  "ok": true,
+  "kind": "drive",
+  "size": 60219840,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/emojis/qy_12_tietie.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 347817,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/emojis/qy_13_shoudao.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 352455,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/emojis/qy_14_xiexie.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 322096,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/emojis/qy_15_bukeqi.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 350162,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/emojis/qy_16_meiguanxi.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 357211,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/emojis/qy_17_sikao.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 229001,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/emojis/qy_18_aiya.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 196449,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/emojis/qy_21_duilian_wink.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 194248,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/emojis/qy_19_ele.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 340151,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/emojis/qy_20_xiangni.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 348627,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/emojis/qy_22_duilian_qinqin.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 323817,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/emojis/qy_23_duilian_haixiu.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 232841,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/models/v1/qingya_3d_20260905_viewer.html",
+  "ok": true,
+  "kind": "page",
+  "size": 1129,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/emojis/qy_24_duilian_miyankxiao.gif",
+  "ok": true,
+  "kind": "drive",
+  "size": 236801,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/models/v1/qingya_3d_20260905_preview.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 123247,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/models/v4/base_1.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 386579,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/models/v4/c_off_1.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 366904,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/models/v4/c_off_2.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 367130,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/models/v4/base_2.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 386898,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/models/v4/face_regions_check.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 141398,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/models/v4/c_on_1.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 342305,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/models/v4/eye_scatter.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 251132,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/models/v4/c_on_2.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 367291,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/models/v4/fix_falloff.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 346709,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/models/v4/f_blink.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 366234,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/models/v1/qingya_3d_20260905.zip",
+  "ok": false,
+  "kind": "page",
+  "size": 34194412,
+  "url": "",
+  "err": "{\"error\": \"上传凭证响应缺少 uploadUrl 或 cosKey\"}",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/models/v4/f_mouth.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 366350,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/models/v1/qingya_3d_20260905.glb",
+  "ok": true,
+  "kind": "drive",
+  "size": 42274072,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/models/v4/f_rest.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 367088,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/models/v4/f_smile.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 366305,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/models/v4/g_rest.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 366740,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/models/v4/g_smile.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 415192,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/models/v4/g_mouth.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 366244,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/models/v4/mouth_1.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 384736,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/models/v4/mouth_2.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 348795,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/models/v4/mouth_3.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 386206,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/models/v4/pose_blink.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 387258,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/models/v4/pose_mouth.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 319917,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/models/v4/pose_rest.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 388349,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/models/v4/pose_smile.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 386977,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/models/v4/qingya_3d_v4_clean.glb",
+  "ok": true,
+  "kind": "drive",
+  "size": 4667980,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/models/v4/qingya_3d_v4_preview.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 97560,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/models/v4/qingya_3d_v4_face_offline.html",
+  "ok": true,
+  "kind": "page",
+  "size": 4901779,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/models/v4/qingya_3d_v4_clean.html",
+  "ok": true,
+  "kind": "page",
+  "size": 6808287,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/models/v4/qingya_3d_v4_rigged.glb",
+  "ok": true,
+  "kind": "drive",
+  "size": 4681608,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/models/v4/qingya_3d_v4_viewer.html",
+  "ok": true,
+  "kind": "page",
+  "size": 14931,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/models/v4/qingya_3d_v4_vivid.glb",
+  "ok": true,
+  "kind": "drive",
+  "size": 3189688,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/models/v4/qingya_3d_v4_web.glb",
+  "ok": true,
+  "kind": "drive",
+  "size": 3274188,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/models/v4/qingya_3d_v4_rigged.html",
+  "ok": true,
+  "kind": "page",
+  "size": 6823350,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/models/v4/qingya_face_offline_check.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 355776,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/models/v4/qingya_face_offline_t1.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 338029,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/models/v4/qingya_face_offline_t15.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 375534,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/models/v4/qingya_face_offline_t2.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 390670,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/models/v4/qingya_face_offline_t3.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 388959,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/models/v4/qingya_face_offline_template.html",
+  "ok": true,
+  "kind": "page",
+  "size": 5486,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/models/v4/qingya_rig_template.html",
+  "ok": true,
+  "kind": "page",
+  "size": 7102,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/models/v4/qingya_face_offline_t30.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 364800,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/models/v4/rig_final.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 360503,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/models/v4/rig_front.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 302439,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/models/v4/rig_render.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 343431,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/models/v4/rig_rest.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 368017,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/models/v4/teeth_always.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 365098,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/models/v4/t_open_1.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 351737,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/models/v4/t_open_2.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 366649,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/models/v4/t_rest_1.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 368053,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/models/v4/qingya_3d_v4_lite.glb",
+  "ok": true,
+  "kind": "drive",
+  "size": 36487312,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/models/v4/t_rest_2.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 367541,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/models/v4/uv_clusters.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 1624092,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/models/v4/tex_original.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 13910855,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/videos/Brings_both_paws_up_to_cheeks__2026-09-05T15-00-38.mp4",
+  "ok": true,
+  "kind": "drive",
+  "size": 4516452,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/models/v4/tex_vibrant.png",
+  "ok": true,
+  "kind": "drive",
+  "size": 18175560,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/videos/Apologetic_tilt_of_head_to_sid_2026-09-05T14-49-59.mp4",
+  "ok": true,
+  "kind": "drive",
+  "size": 3685791,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/videos/Eyes_narrow_into_a_squinty_hap_2026-09-05T15-02-55.mp4",
+  "ok": true,
+  "kind": "drive",
+  "size": 4381288,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/videos/Front_paws_reach_up_longingly__2026-09-05T14-57-38.mp4",
+  "ok": true,
+  "kind": "drive",
+  "size": 3887495,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/videos/Ears_droop_downward_slowly__ey_2026-09-05T14-03-51.mp4",
+  "ok": true,
+  "kind": "drive",
+  "size": 4028223,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/videos/Happy_bouncy_up_down_body_moti_2026-09-05T13-59-49.mp4",
+  "ok": true,
+  "kind": "drive",
+  "size": 5007202,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/videos/Head_hangs_low__eyes_look_up_t_2026-09-05T14-03-15.mp4",
+  "ok": true,
+  "kind": "drive",
+  "size": 3712300,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/videos/Plays_a_slow_wink__one_eye_gen_2026-09-05T14-58-43.mp4",
+  "ok": true,
+  "kind": "drive",
+  "size": 4205917,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/videos/Lifts_both_front_paws_upward_i_2026-09-05T14-00-05.mp4",
+  "ok": true,
+  "kind": "drive",
+  "size": 4164820,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/videos/Quick_small_head_nod_as_if_sal_2026-09-05T14-46-48.mp4",
+  "ok": true,
+  "kind": "drive",
+  "size": 3736080,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/videos/Reaches_both_front_paws_forwar_2026-09-05T14-03-16.mp4",
+  "ok": true,
+  "kind": "drive",
+  "size": 4173361,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/videos/Shakes_head_gently_from_side_t_2026-09-05T14-52-08.mp4",
+  "ok": true,
+  "kind": "drive",
+  "size": 4258473,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/models/v4/qingya_3d_v4.glb",
+  "ok": true,
+  "kind": "drive",
+  "size": 60219840,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/models/v4/qingya_3d_v4_preview.glb",
+  "ok": true,
+  "kind": "drive",
+  "size": 41458524,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/videos/Slowly_leans_closer_toward_cam_2026-09-05T14-00-47.mp4",
+  "ok": true,
+  "kind": "drive",
+  "size": 4937135,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/videos/Slowly_turns_head_from_side_to_2026-09-05T14-03-10.mp4",
+  "ok": true,
+  "kind": "drive",
+  "size": 3747878,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/videos/Shy_smile__eyes_look_down_then_2026-09-05T15-01-53.mp4",
+  "ok": true,
+  "kind": "drive",
+  "size": 4485762,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/videos/Small_gentle_bow__head_lowers__2026-09-05T14-48-54.mp4",
+  "ok": true,
+  "kind": "drive",
+  "size": 3875350,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/videos/Small_surprised_expression__ey_2026-09-05T14-55-17.mp4",
+  "ok": true,
+  "kind": "drive",
+  "size": 4981205,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/videos/Soft_slow_breathing_while_slee_2026-09-05T13-59-49.mp4",
+  "ok": true,
+  "kind": "drive",
+  "size": 3632665,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/videos/Slowly_leans_forward_toward_ca_2026-09-05T14-03-16.mp4",
+  "ok": true,
+  "kind": "drive",
+  "size": 4233999,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/videos/Tilts_head_to_one_side_in_curi_2026-09-05T14-53-35.mp4",
+  "ok": true,
+  "kind": "drive",
+  "size": 4550999,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/videos/Tilts_head_to_one_side_and_pre_2026-09-05T14-03-26.mp4",
+  "ok": true,
+  "kind": "drive",
+  "size": 3534559,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/videos/Tilt_head_slightly_to_one_side_2026-09-05T14-00-00.mp4",
+  "ok": true,
+  "kind": "drive",
+  "size": 4190123,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/videos/Tongue_flicks_out_briefly_lick_2026-09-05T14-56-33.mp4",
+  "ok": true,
+  "kind": "drive",
+  "size": 3663846,
+  "url": "",
+  "err": "",
+  "node": ""
+ },
+ {
+  "rel": "_cloud/videos/Soft_gentle_blink__slow_subtle_2026-09-05T14-00-00.mp4",
+  "ok": true,
+  "kind": "drive",
+  "size": 3764578,
+  "url": "",
+  "err": "",
+  "node": ""
+ }
+]

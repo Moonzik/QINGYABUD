@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<title>青芽 v5 表情包 Demo 预览</title>
+<style>
+  body { margin:0; font-family: -apple-system, "Microsoft YaHei", sans-serif; background:#f3f3f3; }
+  h1 { padding:24px 32px 8px; margin:0; font-size:22px; color:#333; }
+  h2 { padding:16px 32px 6px; margin:0; color:#444; font-size:17px; }
+  .sub { padding:0 32px 16px; color:#888; font-size:13px; }
+  .row { display:flex; flex-wrap:wrap; gap:24px; padding:18px 32px; }
+  .card { background:#fff; border-radius:14px; overflow:hidden; box-shadow:0 2px 14px rgba(0,0,0,.06); width:300px; }
+  .card .chat {
+    background:#ededed;
+    padding:30px;
+    display:flex;
+    flex-direction:column;
+    gap:14px;
+    min-height:300px;
+  }
+  .card .label { padding:14px 18px; font-size:13px; color:#666; border-top:1px solid #f0f0f0; }
+  .card .label b { color:#333; }
+  .bubble {
+    background:#fff;
+    padding:8px 10px;
+    border-radius:6px;
+    align-self:flex-end;
+    max-width:200px;
+    font-size:13px;
+    color:#333;
+    box-shadow:0 1px 2px rgba(0,0,0,.08);
+  }
+  .bubble.left { align-self:flex-start; }
+  .sendBox { display:flex; align-items:center; gap:8px; }
+  .sendBox img { width:120px; height:120px; display:block; }
+  .compare {
+    display:flex; gap:14px; align-items:center;
+    background:#fff; border-radius:14px; padding:18px;
+    box-shadow:0 2px 14px rgba(0,0,0,.06);
+    margin:0 32px 24px;
+  }
+  .compare > div { display:flex; flex-direction:column; align-items:center; gap:6px; font-size:12px; color:#666; }
+  .compare img { width:180px; height:180px; display:block; border:1px solid #eee; }
+  .fileNote { padding:0 32px 24px; color:#999; font-size:12px; }
+  .row img.full { width:100%; display:block; }
+  .faceCard { width:200px; }
+  .faceCard .chat { min-height:200px; padding:18px; }
+</style>
+</head>
+<body>
+
+<h1>🌱 青芽 v5 Demo · 蹲坐版</h1>
+<div class="sub">根据你的反馈改了三件事：① 蹲坐而不站着 ② 无蝴蝶结等拟人装饰 ③ 头更大身体更圆润。同时换了 <b>rembg (u2netp AI 抠图)</b>，比之前的 GrabCut 在浅色背景图上效果更好。</div>
+
+<div class="row">
+
+  <div class="card">
+    <div class="chat">
+      <div class="bubble left">早呀</div>
+      <div class="bubble">😪</div>
+      <div class="sendBox">
+        <img src="outputs/emojis_v1/videos_v5/demo_zaoan_v5_rembg.gif" alt="早安">
+        <div class="bubble left" style="margin:0;">hi🌱</div>
+      </div>
+    </div>
+    <div class="label"><b>v5 rembg 抠图版</b> · 251KB · 14 帧透明 · 240×240</div>
+  </div>
+
+  <div class="card">
+    <div class="chat">
+      <div class="sendBox">
+        <img src="outputs/emojis_v1/videos_v5/demo_zaoan_v5_rembg.gif" alt="早安">
+        <div class="bubble left" style="margin:0;">蹲坐版 · 大头</div>
+      </div>
+      <div class="bubble">可爱</div>
+    </div>
+    <div class="label"><b>在微信聊天背景实际效果</b></div>
+  </div>
+
+</div>
+
+<div class="compare">
+  <div>
+    <img src="outputs/emojis_v1/videos_v5/demo_zaoan_v5_rembg.gif" style="background:#ededed;">
+    <b>微信背景 #ededed</b>
+    <span style="font-size:11px;">实际嵌入颜色</span>
+  </div>
+  <div>
+    <img src="outputs/emojis_v1/videos_v5/demo_zaoan_v5_rembg.gif" style="background:#ffffff;">
+    <b>纯白</b>
+  </div>
+  <div>
+    <img src="outputs/emojis_v1/videos_v5/demo_zaoan_v5_rembg.gif" style="background:#5b6f59;">
+    <b>深绿</b>
+  </div>
+  <div>
+    <img src="outputs/emojis_v1/videos_v5/demo_zaoan_v5_rembg.gif" style="background:repeating-linear-gradient(45deg,#fb8 0 10px,#48b 10px 20px);">
+    <b>棋盘格</b>
+    <span style="font-size:11px;">检验透明度</span>
+  </div>
+</div>
+
+<h2>4 帧分解 · 看动作幅度</h2>
+<div class="row">
+  <div class="card"><div class="chat" style="min-height:auto; padding:0;"><img src="outputs/emojis_v1/videos_v5/rembg_00.png" class="full"></div><div class="label"><b>帧 0</b> · 起始坐姿</div></div>
+  <div class="card"><div class="chat" style="min-height:auto; padding:0;"><img src="outputs/emojis_v1/videos_v5/rembg_04.png" class="full"></div><div class="label"><b>帧 4</b> · 抬头</div></div>
+  <div class="card"><div class="chat" style="min-height:auto; padding:0;"><img src="outputs/emojis_v1/videos_v5/rembg_08.png" class="full"></div><div class="label"><b>帧 8</b> · 转耳</div></div>
+  <div class="card"><div class="chat" style="min-height:auto; padding:0;"><img src="outputs/emojis_v1/videos_v5/rembg_12.png" class="full"></div><div class="label"><b>帧 12</b> · 眨眼前</div></div>
+</div>
+
+<h2>对比：v3 站姿 vs v5 蹲坐</h2>
+<div class="row">
+  <div class="card faceCard"><div class="chat" style="min-height:auto; padding:0;"><img src="outputs/emojis_v1/videos_v4/demo_zaoan_v3.gif" class="full"></div><div class="label"><b>v3 站姿版</b>（旧）</div></div>
+  <div class="card faceCard"><div class="chat" style="min-height:auto; padding:0;"><img src="outputs/emojis_v1/videos_v5/demo_zaoan_v5_rembg.gif" class="full"></div><div class="label"><b>v5 蹲坐版</b>（新）</div></div>
+</div>
+
+<div class="fileNote">
+  v5 产出文件（videos_v5/）：<br>
+  · <b>demo_zaoan_v5_rembg.gif</b> ← 最终版，251KB<br>
+  · rembg_00..13.png — 14 帧透明 PNG<br>
+  · v5_rembg_4frames.png — 4 帧拼图预览<br>
+  · qy_test_v5.png — 源图（蹲坐版）<br>
+  · 视频：A_cute_round_fluffy_fantasy_pl_2026-09-05T12-47-42.mp4
+</div>
+
+</body>
+</html>

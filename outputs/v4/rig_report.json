@@ -1,0 +1,100 @@
+{
+  "input": "qingya_3d_v4_vivid.glb",
+  "output": "qingya_3d_v4_rigged.glb",
+  "vertices": 67849,
+  "bones": [
+    "root",
+    "spine",
+    "chest",
+    "neck",
+    "head",
+    "sprout",
+    "sprout_tip",
+    "tail1",
+    "tail2",
+    "tail3",
+    "arm_L",
+    "arm_R",
+    "leg_L",
+    "leg_R"
+  ],
+  "shape_keys": [
+    "Basis",
+    "blink_L",
+    "blink_R",
+    "squint_L",
+    "squint_R",
+    "mouth_open",
+    "smile"
+  ],
+  "dominant_vertex_count": {
+    "root": 8567,
+    "spine": 9740,
+    "chest": 1831,
+    "neck": 1107,
+    "head": 32278,
+    "sprout": 355,
+    "sprout_tip": 2195,
+    "tail1": 1666,
+    "tail2": 4098,
+    "tail3": 1806,
+    "arm_L": 517,
+    "arm_R": 962,
+    "leg_L": 1428,
+    "leg_R": 1299
+  },
+  "bbox_min": [
+    -0.2927,
+    -0.3702,
+    0.0
+  ],
+  "bbox_max": [
+    0.3122,
+    0.6053,
+    0.9991
+  ],
+  "shape_safety": {
+    "blink_L": {
+      "max_stretch": 1.167,
+      "edges_over_limit": 0,
+      "total_edges": 126282,
+      "max_displacement": 0.00901,
+      "affected_verts": 1804
+    },
+    "blink_R": {
+      "max_stretch": 1.172,
+      "edges_over_limit": 0,
+      "total_edges": 126282,
+      "max_displacement": 0.01105,
+      "affected_verts": 1862
+    },
+    "squint_L": {
+      "max_stretch": 1.076,
+      "edges_over_limit": 0,
+      "total_edges": 126282,
+      "max_displacement": 0.0042,
+      "affected_verts": 1801
+    },
+    "squint_R": {
+      "max_stretch": 1.081,
+      "edges_over_limit": 0,
+      "total_edges": 126282,
+      "max_displacement": 0.00516,
+      "affected_verts": 1850
+    },
+    "mouth_open": {
+      "max_stretch": 2.658,
+      "edges_over_limit": 0,
+      "total_edges": 126282,
+      "max_displacement": 0.01406,
+      "affected_verts": 456
+    },
+    "smile": {
+      "max_stretch": 1.999,
+      "edges_over_limit": 0,
+      "total_edges": 126282,
+      "max_displacement": 0.00697,
+      "affected_verts": 456
+    }
+  }
+}
