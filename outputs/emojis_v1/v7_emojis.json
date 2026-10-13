@@ -1,0 +1,329 @@
+[
+  {
+    "name": "01_zaoan",
+    "src": "base",
+    "motion": "Soft gentle blink, slow subtle head tilt up as if greeting the morning sun, ears slightly flick, body subtle breathing, very gentle calm rhythm.",
+    "overlay": [
+      [
+        "sunray",
+        [
+          700,
+          200
+        ]
+      ]
+    ],
+    "text": "hi",
+    "text_pos": [
+      820,
+      250
+    ]
+  },
+  {
+    "name": "02_wanan",
+    "src": "sleep",
+    "motion": "Soft slow breathing while sleeping, eyes gently closed with peaceful smile, blanket slightly rises and falls, tiny sprouts sway faintly.",
+    "overlay": [],
+    "text": null,
+    "text_pos": null
+  },
+  {
+    "name": "03_zaine",
+    "src": "base",
+    "motion": "Slowly turns head from side to side looking around attentively, ears rotating to listen, calm attentive mood, gentle body breathing.",
+    "overlay": [],
+    "text": null,
+    "text_pos": null
+  },
+  {
+    "name": "04_jiayou",
+    "src": "base",
+    "motion": "Lifts both front paws upward in a small encouraging gesture, slight body bounce, head bobs gently, eyes bright and determined, sprouts stand tall.",
+    "overlay": [],
+    "text": null,
+    "text_pos": null
+  },
+  {
+    "name": "05_weiqu",
+    "src": "closeup",
+    "motion": "Ears droop downward slowly, eyes lower looking down sadly, head tilts down slightly, subtle sad healing expression, tears forming at corners.",
+    "overlay": [
+      [
+        "tear",
+        [
+          350,
+          480
+        ]
+      ],
+      [
+        "tear",
+        [
+          670,
+          480
+        ]
+      ]
+    ],
+    "text": null,
+    "text_pos": null
+  },
+  {
+    "name": "06_emo",
+    "src": "base",
+    "motion": "Head hangs low, eyes look up toward camera with sad yearning expression, ears flat, soft blue-gray tint shifts in, gentle body still.",
+    "overlay": [],
+    "text": null,
+    "text_pos": null
+  },
+  {
+    "name": "07_kaixin",
+    "src": "base",
+    "motion": "Happy bouncy up-down body motion, ears perk up, tail wags, mouth opens in small smile, sprouts glow softly with gentle pink light, joyful rhythm.",
+    "overlay": [],
+    "text": null,
+    "text_pos": null
+  },
+  {
+    "name": "08_baobao",
+    "src": "base",
+    "motion": "Reaches both front paws forward gently toward camera as if offering a hug, slow soft forward lean, kind healing expression, body subtle breathing.",
+    "overlay": [
+      [
+        "heart_small",
+        [
+          300,
+          350
+        ]
+      ],
+      [
+        "heart_small",
+        [
+          720,
+          350
+        ]
+      ]
+    ],
+    "text": null,
+    "text_pos": null
+  },
+  {
+    "name": "09_bixin",
+    "src": "closeup",
+    "motion": "Tilt head slightly to one side, both front paws gently come up to form a small heart shape in front of chest, sprouts glow with soft pink light, healing smile.",
+    "overlay": [
+      [
+        "heart_big",
+        [
+          480,
+          380
+        ]
+      ],
+      [
+        "glow",
+        [
+          480,
+          130
+        ]
+      ]
+    ],
+    "text": null,
+    "text_pos": null
+  },
+  {
+    "name": "10_cengceng",
+    "src": "base",
+    "motion": "Slowly leans forward toward camera as if nuzzling, eyes close gently halfway, soft affectionate mood, ears relax.",
+    "overlay": [],
+    "text": null,
+    "text_pos": null
+  },
+  {
+    "name": "11_qinqin",
+    "src": "closeup",
+    "motion": "Slowly zooms closer toward camera as if giving a soft kiss, eyes close gently, several small heart shapes float up around face, healing mood.",
+    "overlay": [
+      [
+        "heart_small",
+        [
+          220,
+          250
+        ]
+      ],
+      [
+        "heart_small",
+        [
+          820,
+          280
+        ]
+      ],
+      [
+        "heart_small",
+        [
+          480,
+          180
+        ]
+      ]
+    ],
+    "text": null,
+    "text_pos": null
+  },
+  {
+    "name": "12_tietie",
+    "src": "base",
+    "motion": "Tilts head to one side and presses cheek softly against an invisible friend, eyes half closed in contentment, gentle smile, soft healing rhythm.",
+    "overlay": [],
+    "text": null,
+    "text_pos": null
+  },
+  {
+    "name": "13_shoudao",
+    "src": "base",
+    "motion": "Quick small head nod as if saluting 'got it', ears perk forward briefly, then relax, confident calm expression.",
+    "overlay": [],
+    "text": "👌",
+    "text_pos": [
+      820,
+      220
+    ]
+  },
+  {
+    "name": "14_xiexie",
+    "src": "base",
+    "motion": "Small gentle bow, head lowers slightly forward, eyes close softly, then lifts back up with kind smile, healing grateful mood.",
+    "overlay": [],
+    "text": null,
+    "text_pos": null
+  },
+  {
+    "name": "15_bukeqi",
+    "src": "base",
+    "motion": "Apologetic tilt of head to side, eyes look up with soft sorry expression, front paws slightly lift in small apologetic gesture.",
+    "overlay": [],
+    "text": null,
+    "text_pos": null
+  },
+  {
+    "name": "16_meiguanxi",
+    "src": "base",
+    "motion": "Shakes head gently from side to side as if saying 'no worries', small kind smile, ears relaxed, body subtle breathing.",
+    "overlay": [],
+    "text": null,
+    "text_pos": null
+  },
+  {
+    "name": "17_sikao",
+    "src": "closeup",
+    "motion": "Tilts head to one side in curious thinking pose, one ear rotates forward attentively, eyes look up thoughtfully, gentle pondering mood.",
+    "overlay": [
+      [
+        "qmark",
+        [
+          760,
+          280
+        ]
+      ]
+    ],
+    "text": null,
+    "text_pos": null
+  },
+  {
+    "name": "18_aiya",
+    "src": "closeup",
+    "motion": "Small surprised expression, eyes widen briefly, ears flick up, slight startle, then relax back to calm.",
+    "overlay": [
+      [
+        "exclaim",
+        [
+          760,
+          240
+        ]
+      ]
+    ],
+    "text": null,
+    "text_pos": null
+  },
+  {
+    "name": "19_ele",
+    "src": "base",
+    "motion": "Tongue flicks out briefly licking lips, head tilts to side, eyes look around longingly as if hungry, soft whimper mood.",
+    "overlay": [
+      [
+        "drool",
+        [
+          700,
+          460
+        ]
+      ]
+    ],
+    "text": null,
+    "text_pos": null
+  },
+  {
+    "name": "20_xiangni",
+    "src": "base",
+    "motion": "Front paws reach up longingly toward camera, ears droop slightly, eyes look up with soft yearning, body gentle slow breathing.",
+    "overlay": [
+      [
+        "heart_small",
+        [
+          320,
+          280
+        ]
+      ],
+      [
+        "heart_small",
+        [
+          720,
+          280
+        ]
+      ]
+    ],
+    "text": null,
+    "text_pos": null
+  },
+  {
+    "name": "21_duilian_wink",
+    "src": "closeup",
+    "motion": "Plays a slow wink, one eye gently closes then opens, slight mischievous smile, ear flicks, gentle cheek blush.",
+    "overlay": [],
+    "text": null,
+    "text_pos": null
+  },
+  {
+    "name": "22_duilian_qinqin",
+    "src": "closeup",
+    "motion": "Brings both paws up to cheeks, cheeks puff slightly, eyes close softly as if blowing a gentle kiss, healing mood.",
+    "overlay": [
+      [
+        "heart_small",
+        [
+          220,
+          250
+        ]
+      ],
+      [
+        "heart_small",
+        [
+          820,
+          250
+        ]
+      ]
+    ],
+    "text": null,
+    "text_pos": null
+  },
+  {
+    "name": "23_duilian_haixiu",
+    "src": "closeup",
+    "motion": "Shy smile, eyes look down then up, cheeks blush deeper pink, ears fold slightly back, gentle bashful mood.",
+    "overlay": [],
+    "text": null,
+    "text_pos": null
+  },
+  {
+    "name": "24_duilian_miyankxiao",
+    "src": "closeup",
+    "motion": "Eyes narrow into a squinty happy smile, mouth opens in small joyful grin, head tilts slightly, gentle happy rhythm.",
+    "overlay": [],
+    "text": null,
+    "text_pos": null
+  }
+]

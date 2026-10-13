@@ -34,7 +34,7 @@ def main():
     with open(r"C:\Users\XIAOMI\Desktop\青芽\WKBD\QINGYABUD\outputs\v4\back_url.txt") as f:
         back_url = f.read().strip()
 
-    token = "tk_OmLRxK4aVjDXMj4Q4r90hamXMkCZWvd8"
+    token = "tk_sblktoiXB2cSHSVVgJ3xIYGivDEG1XWu"
     endpoint = buddy_cloud._DEFAULT_ENDPOINT
 
     multi_view = json.dumps([
